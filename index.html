@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Present</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday!</h1>
+        <div class="message">
+            <p>
+                Dear Bebi,<br><br>
+                Hmm. Hindi ko alam kung paano sisimulan to haha. Happy 22nd Birthday bebi. Today is your special day, and I want to take a moment to tell you how amazing you are. 
+                You light up every room you enter and bring so much joy to everyone around you lalo na sa Family and Friends mo . I hope this year brings you endless happiness, 
+                unforgettable moments(with me ehe. pero acads muna wahahahahaha), and all the love you deserve. Here's to another year of wonderful memories and cherished moments 
+                together (with ako uli wahahaha). Enjoy your day to the fullest, and may all your dreams come true. Happy Birthday Bebi.! 🎉🎂🎁<br><br>
+                With lots of love,<br>
+                Imong Bebi
+            </p>
+        </div>
+
+        <!-- Image Carousel -->
+        <div class="carousel">
+            <div class="slides">
+                <!-- Duplicate the last image at the start for smooth infinite transition -->
+                <img src="image10.jpg" alt="Image 10">
+                
+                <img src="image1.jpg" alt="Image 1">
+                <img src="image2.jpg" alt="Image 2">
+                <img src="image3.jpg" alt="Image 3">
+                <img src="image4.jpg" alt="Image 4">
+                <img src="image5.jpg" alt="Image 5">
+                <img src="image6.jpg" alt="Image 6">
+                <img src="image7.jpg" alt="Image 7">
+                <img src="image8.jpg" alt="Image 8">
+                <img src="image9.jpg" alt="Image 9">
+                <img src="image10.jpg" alt="Image 10">
+                
+                <!-- Duplicate the first image at the end for smooth infinite transition -->
+                <img src="image1.jpg" alt="Image 1">
+            </div>
+            <button class="prev" onclick="moveSlides(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlides(1)">&#10095;</button>
+        </div>
+
+        <!-- Background Music -->
+        <audio id="birthdayMusic" autoplay loop>
+            <source src="bday.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
